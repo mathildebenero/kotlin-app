@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- my tool bar styling, includes 3 options: menu, book a table and contact us-->
+
+    <item
+        android:id="@+id/menu_menu"
+        android:textStyle="italic"
+        app:fontFamily="@font/light_italic_font"
+        android:title="@string/menu_title"
+         />
+
+    <item
+        android:id="@+id/menu_book"
+        android:textStyle="italic"
+        app:fontFamily="@font/light_italic_font"
+        android:title="@string/book_table"
+         />
+
+    <item
+        android:id="@+id/menu_contact"
+        android:textStyle="italic"
+        app:fontFamily="@font/light_italic_font"
+        android:title="@string/contact_us"
+        />
+</menu>

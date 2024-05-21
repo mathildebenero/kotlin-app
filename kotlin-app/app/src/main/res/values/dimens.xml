@@ -1,0 +1,4 @@
+<!-- res/values/dimens.xml -->
+<resources>
+    <dimen name="landscape_image_height">600dp</dimen> <!-- example height -->
+</resources>

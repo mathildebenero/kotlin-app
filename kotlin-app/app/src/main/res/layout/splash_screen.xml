@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <!-- the animation screen, consists of the hamburger layers and the fried-->
+    <!-- every picture is invisible exept the bottom bread to create the animation of building an hamburger-->
+    <!-- when each animation is called in the kotlin file, the visibility is switched to visible -->
+
+    <Switch
+        android:id="@+id/my_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skip_animation" />
+
+    <ImageView
+        android:id="@+id/breadBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-25dp"
+        android:src="@drawable/lower_bread1" />
+
+
+    <ImageView
+        android:id="@+id/tomato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/lettuce"
+        android:layout_marginBottom="-582dp"
+        android:src="@drawable/tomatoe"
+        android:visibility="invisible"
+         />
+
+    <ImageView
+        android:id="@+id/burger_meat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/breadBottom"
+        android:layout_marginBottom="-78dp"
+        android:rotationX="11"
+        android:src="@drawable/meat"
+        android:visibility="invisible"/>
+
+
+
+    <ImageView
+        android:id="@+id/lettuce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/burger_meat"
+        android:layout_marginBottom="-269dp"
+        android:src="@drawable/lettuce"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:id="@+id/breadTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/onion"
+        android:layout_marginBottom="-262dp"
+        android:src="@drawable/upper_bread1"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:id="@+id/onion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tomato"
+        android:layout_marginBottom="-221dp"
+        android:src="@drawable/onion"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/fries1"
+        android:layout_width="match_parent"
+        android:layout_height="349dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="320dp"
+        android:src="@drawable/fried"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/fries2"
+        android:layout_width="match_parent"
+        android:layout_height="349dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="255dp"
+        android:src="@drawable/fried"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/fries3"
+        android:layout_width="match_parent"
+        android:layout_height="349dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="171dp"
+        android:src="@drawable/fried"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/fries4"
+        android:layout_width="match_parent"
+        android:layout_height="349dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="95dp"
+        android:src="@drawable/fried"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/fries5"
+        android:layout_width="match_parent"
+        android:layout_height="349dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+        android:src="@drawable/fried"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/fries6"
+        android:layout_width="match_parent"
+        android:layout_height="349dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-68dp"
+        android:src="@drawable/fried"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/fries7"
+        android:layout_width="match_parent"
+        android:layout_height="349dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="389dp"
+        android:src="@drawable/fried"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/fries8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="507dp"
+        android:src="@drawable/fried"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

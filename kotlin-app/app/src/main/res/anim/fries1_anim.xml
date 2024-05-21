@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Translate animation from left (-100% off the screen to the left to 0% at its final position on the screen) -->
+    <translate
+        android:fromXDelta="-100%"
+        android:toXDelta="0%"
+        android:duration="500"/>
+
+    <!-- Alpha animation to fade in the element -->
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="500" />
+</set>

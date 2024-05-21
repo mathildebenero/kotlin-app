@@ -1,0 +1,103 @@
+<resources>
+    <string name="welcome_text">Welcome to the Burgers Specialist!</string>
+    <string name="app_name">My Application</string> <!-- Default string, modify as needed -->
+    <string name="meal_title1">The Classic</string>
+    <string name="info1">"""
+lettuce, tomato, and onion
+
+50₪
+</string>
+    <string name="info2">mushrooms, onions and rocket
+
+                54₪</string>
+    <string name="info3">lettuce, tomatoe, cheddar, and garlic mayonnaise
+
+                    60₪</string>
+    <string name="info4">ketchup, crispy sweet potatoe and garlic mayonnaise
+
+                    58₪</string>
+    <string name="info5">bacon, egg and cheddar
+
+                    66₪</string>
+    <string name="info6">mustard, sausage and onion
+
+                    45₪</string>
+    <string name="info7">classic sweet potatoe home fried
+
+                    25₪</string>
+    <string name="info8">classic french fried
+
+                    20₪</string>
+    <string name="info9">classic home made onion rings
+
+                    25₪</string>
+    <string name="info10">Vodka, Midori, lemon,passion fruit, and pineapple juice
+
+                    35₪</string>
+    <string name="info11">Arak, strawberry, melon, Aperol, lemon, grapefruit, and celery bitters
+
+                    38₪</string>
+    <string name="info12">Reposado tequila, spicy chili liquor, strawberry, cucumber, and ginger beer
+
+                    40₪</string>
+    <string name="dialog_title">Your Reservation</string>
+    <string name="button_ok">OK</string>
+    <string name="alert_dialog_title">Attention Needed</string>
+    <string name="alert_dialog_message">Please contact us to confirm</string>
+    <string name="number_of_seats">Number of seats: </string>
+    <string name="payment_choice">Payment choice: </string>
+    <string name="date_and_time">Date and Time: </string>
+    <string name="are_you_vegan">Are you vegan: </string>
+    <string name="contact_us">Contact Us</string>
+
+
+    <string name="date_time_not_set">Not set</string>
+
+
+
+
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="meal_title2">The Opened</string>
+    <string name="meal_title3">The CheeseBurger</string>
+    <string name="meal_title4">The Batata Crispy</string>
+    <string name="meal_title5">The BaconBurger</string>
+    <string name="meal_title6">The Sausage</string>
+    <string name="meal_title7">Sweet Potatoe fries</string>
+    <string name="meal_title8">French fries</string>
+    <string name="meal_title9">Onion Rings</string>
+    <string name="meal_title10">Gringo</string>
+    <string name="meal_title11">Opa Opa</string>
+    <string name="meal_title12">Viva La Vida</string>
+
+    <string name="title">Restaurant</string>
+    <string name="menu_title">Our menu</string>
+    <string name="book_table">Book a Table</string>
+    <string name="how_many">How many people will you be?</string>
+    <string name="when">Please select the date and hour</string>
+    <string name="payment">Please select a payment option</string>
+    <string name="reservation">Reserve seats</string>
+    <string name="contact">Contact Us At 0512345678</string>
+    <string name="close_button">Close</string>
+    <string name="skip_animation">Skip Animation</string>
+    <string name="input_remarks">Add Remarks: </string>
+    <string name="celebrating">Are you celebrating something?</string>
+    <string name="birthday">Birthday</string>
+    <string name="engagement">Engagement</string>
+    <string name="nothing">Just enjoying with no reason!</string>
+
+
+
+
+
+
+
+
+
+
+
+    <dimen name="original_image_height">100dp</dimen> <!-- Original height -->
+    <dimen name="enlarged_image_height">200dp</dimen>
+
+
+</resources>
